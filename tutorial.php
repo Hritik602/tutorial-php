@@ -14,17 +14,17 @@
 
 // define("Greeting", ["Welcome", "to my page"]);
 // echo (Greeting[0]);
+$var = 1;
 
-
-// if ($var > 7) {
-//     echo "It is greater than  $var";
-// } else {
-//     echo "It is smaller $var";
-// }
-// while ($var <= 10) {
-//     echo "Hello $var" . "<br>";
-//     $var++;
-// }
+if ($var > 7) {
+    echo "It is greater than  $var";
+} else {
+    echo "It is smaller $var";
+}
+while ($var <= 10) {
+    echo "Hello $var" . "<br>";
+    $var++;
+}
 function name()
 {
     $var = 1;
